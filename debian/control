@@ -1,0 +1,13 @@
+Source: filer
+Section: utils
+Priority: optional
+Maintainer: Gevorg Ayvazyan <gevayvazyan365@gmail.com>
+Build-Depends: cmake, g++, debhelper (>= 12)
+Standards-Version: 4.5.1
+Homepage: https://github.com/gevayvazyan/filer
+
+Package: filer
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Terminal-based filesystem residue scanner
+ A lightweight tool to scan, classify and report leftover files of applications.

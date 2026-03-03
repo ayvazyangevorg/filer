@@ -1,0 +1,11 @@
+Package: filer
+Version: 0.1.0-1
+Architecture: amd64
+Maintainer: Gevorg Ayvazyan <gevayvazyan365@gmail.com>
+Installed-Size: 148
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
+Section: utils
+Priority: optional
+Homepage: https://github.com/gevayvazyan/filer
+Description: Terminal-based filesystem residue scanner
+ A lightweight tool to scan, classify and report leftover files of applications.

@@ -1,0 +1,12 @@
+Package: filer-dbgsym
+Source: filer
+Version: 0.1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Gevorg Ayvazyan <gevayvazyan365@gmail.com>
+Installed-Size: 56
+Depends: filer (= 0.1.0-1)
+Section: debug
+Priority: optional
+Description: debug symbols for filer
+Build-Ids: 439c3fb6c8354582c56ec97241455abaeac3df36
